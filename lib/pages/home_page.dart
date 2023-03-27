@@ -125,7 +125,11 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: null,
+        onPressed: () {
+          setState(() {
+            roll += 1;
+          });
+        },
         child: Icon(Icons.add),
       ),
     );
