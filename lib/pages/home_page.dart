@@ -20,12 +20,16 @@ class HomePage extends StatelessWidget {
         elevation: 0,
       ),
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(30, 250, 30, 50),
+        padding: const EdgeInsets.fromLTRB(30, 50, 30, 50),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Center(
-              child: CircleAvatar(),
+              child: CircleAvatar(
+                radius: 40,
+                backgroundImage: NetworkImage(
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJtf4t9oJJhL6pIBedR9AaVssL7g6KBbj-WGA_IRhc1g&usqp=CAU&ec=48665701"),
+              ),
             ),
             Text(
               "NAME- Mohd Kashif",
