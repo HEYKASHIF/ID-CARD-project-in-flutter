@@ -16,6 +16,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.amber[800],
         title: Text("ID-CARD"),
+        centerTitle: true,
+        elevation: 0,
       ),
     );
   }
