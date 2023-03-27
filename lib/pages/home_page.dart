@@ -21,9 +21,30 @@ class HomePage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Text("NAME- Mohd Kashif"),
-          Text("BRANCH- IT"),
-          Text("HOMETOWN- Ghaziabad"),
+          Text(
+            "NAME- Mohd Kashif",
+            style: TextStyle(
+                color: Colors.black,
+                letterSpacing: 2.0,
+                fontSize: 20,
+                fontWeight: FontWeight.bold),
+          ),
+          Text(
+            "NAME- Mohd Kashif",
+            style: TextStyle(
+                color: Colors.black,
+                letterSpacing: 2.0,
+                fontSize: 20,
+                fontWeight: FontWeight.bold),
+          ),
+          Text(
+            "NAME- Mohd Kashif",
+            style: TextStyle(
+                color: Colors.black,
+                letterSpacing: 2.0,
+                fontSize: 20,
+                fontWeight: FontWeight.bold),
+          ),
         ],
       ),
     );
