@@ -24,6 +24,9 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Center(
+              child: CircleAvatar(),
+            ),
             Text(
               "NAME- Mohd Kashif",
               style: TextStyle(
