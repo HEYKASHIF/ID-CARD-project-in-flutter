@@ -13,6 +13,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 8, 25, 177),
       appBar: AppBar(
         backgroundColor: Colors.amber[800],
         title: Text("ID-CARD"),
