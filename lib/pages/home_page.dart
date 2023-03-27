@@ -15,6 +15,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  int roll = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,6 +45,17 @@ class _HomePageState extends State<HomePage> {
             ),
             Text(
               "NAME- Mohd Kashif",
+              style: TextStyle(
+                  color: Colors.amber[800],
+                  letterSpacing: 2.0,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+            SizedBox(
+              height: 35,
+            ),
+            Text(
+              "ROLL NO- $roll",
               style: TextStyle(
                   color: Colors.amber[800],
                   letterSpacing: 2.0,
