@@ -26,10 +26,15 @@ class HomePage extends StatelessWidget {
           children: [
             Center(
               child: CircleAvatar(
-                radius: 40,
+                radius: 60,
                 backgroundImage: NetworkImage(
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJtf4t9oJJhL6pIBedR9AaVssL7g6KBbj-WGA_IRhc1g&usqp=CAU&ec=48665701"),
               ),
+            ),
+            Divider(
+              thickness: 2,
+              color: Colors.amber,
+              height: 100,
             ),
             Text(
               "NAME- Mohd Kashif",
