@@ -20,30 +20,30 @@ class HomePage extends StatelessWidget {
         elevation: 0,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.fromLTRB(30, 250, 30, 50),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               "NAME- Mohd Kashif",
               style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.amber[800],
                   letterSpacing: 2.0,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
             Text(
-              "NAME- Mohd Kashif",
+              "BRANCH- IT",
               style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.amber[800],
                   letterSpacing: 2.0,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
             Text(
-              "NAME- Mohd Kashif",
+              "CITY- Ghaziabad",
               style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.amber[800],
                   letterSpacing: 2.0,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
