@@ -19,6 +19,13 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         elevation: 0,
       ),
+      body: Column(
+        children: [
+          Text("NAME- Mohd Kashif"),
+          Text("BRANCH- IT"),
+          Text("HOMETOWN- Ghaziabad"),
+        ],
+      ),
     );
   }
 }
