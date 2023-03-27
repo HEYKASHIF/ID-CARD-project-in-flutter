@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 20,
+              height: 35,
             ),
             Text(
               "BRANCH- IT",
@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 20,
+              height: 35,
             ),
             Text(
               "CITY- Ghaziabad",
@@ -67,15 +67,42 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 20,
+              height: 35,
             ),
-            Text(
-              "EMAIL- Kashifmohd269@gmail.com",
-              style: TextStyle(
-                  color: Colors.amber[800],
-                  letterSpacing: 2.0,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold),
+            Row(
+              children: [
+                Icon(Icons.mail),
+                SizedBox(
+                  width: 10,
+                ),
+                Text(
+                  "kashifmohd269@gmail.com",
+                  style: TextStyle(
+                      color: Colors.amber[800],
+                      letterSpacing: 2.0,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 35,
+            ),
+            Row(
+              children: [
+                Icon(Icons.phone),
+                SizedBox(
+                  width: 10,
+                ),
+                Text(
+                  "8126064785",
+                  style: TextStyle(
+                      color: Colors.amber[800],
+                      letterSpacing: 2.0,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold),
+                ),
+              ],
             ),
           ],
         ),
