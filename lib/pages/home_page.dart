@@ -19,33 +19,37 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         elevation: 0,
       ),
-      body: Column(
-        children: [
-          Text(
-            "NAME- Mohd Kashif",
-            style: TextStyle(
-                color: Colors.black,
-                letterSpacing: 2.0,
-                fontSize: 20,
-                fontWeight: FontWeight.bold),
-          ),
-          Text(
-            "NAME- Mohd Kashif",
-            style: TextStyle(
-                color: Colors.black,
-                letterSpacing: 2.0,
-                fontSize: 20,
-                fontWeight: FontWeight.bold),
-          ),
-          Text(
-            "NAME- Mohd Kashif",
-            style: TextStyle(
-                color: Colors.black,
-                letterSpacing: 2.0,
-                fontSize: 20,
-                fontWeight: FontWeight.bold),
-          ),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              "NAME- Mohd Kashif",
+              style: TextStyle(
+                  color: Colors.black,
+                  letterSpacing: 2.0,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+            Text(
+              "NAME- Mohd Kashif",
+              style: TextStyle(
+                  color: Colors.black,
+                  letterSpacing: 2.0,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+            Text(
+              "NAME- Mohd Kashif",
+              style: TextStyle(
+                  color: Colors.black,
+                  letterSpacing: 2.0,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
       ),
     );
   }
