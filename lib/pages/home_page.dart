@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber[800],
+        title: Text("ID-CARD"),
       ),
     );
   }
