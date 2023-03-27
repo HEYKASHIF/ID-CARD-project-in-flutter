@@ -19,12 +19,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 233, 4, 4),
+      backgroundColor: Colors.blue[800],
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 0, 0, 0),
+        backgroundColor: Colors.blue,
         title: Text("ID-CARD"),
         centerTitle: true,
-        elevation: 0,
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(30, 50, 30, 50),
@@ -68,7 +67,7 @@ class _HomePageState extends State<HomePage> {
             Text(
               "BRANCH- IT",
               style: TextStyle(
-                  color: Colors.amber[800],
+                  color: Colors.white,
                   letterSpacing: 2.0,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
@@ -79,7 +78,7 @@ class _HomePageState extends State<HomePage> {
             Text(
               "CITY- Ghaziabad",
               style: TextStyle(
-                  color: Colors.amber[800],
+                  color: Colors.white,
                   letterSpacing: 2.0,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
@@ -96,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                 Text(
                   "kashifmohd269@gmail.com",
                   style: TextStyle(
-                      color: Colors.amber[800],
+                      color: Colors.white,
                       letterSpacing: 2.0,
                       fontSize: 18,
                       fontWeight: FontWeight.bold),
@@ -115,7 +114,7 @@ class _HomePageState extends State<HomePage> {
                 Text(
                   "8126064785",
                   style: TextStyle(
-                      color: Colors.amber[800],
+                      color: Colors.white,
                       letterSpacing: 2.0,
                       fontSize: 18,
                       fontWeight: FontWeight.bold),
