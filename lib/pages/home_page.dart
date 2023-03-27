@@ -44,6 +44,9 @@ class HomePage extends StatelessWidget {
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Text(
               "BRANCH- IT",
               style: TextStyle(
@@ -52,8 +55,22 @@ class HomePage extends StatelessWidget {
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Text(
               "CITY- Ghaziabad",
+              style: TextStyle(
+                  color: Colors.amber[800],
+                  letterSpacing: 2.0,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "EMAIL- Kashifmohd269@gmail.com",
               style: TextStyle(
                   color: Colors.amber[800],
                   letterSpacing: 2.0,
