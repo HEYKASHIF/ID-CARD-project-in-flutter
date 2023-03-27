@@ -19,9 +19,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 8, 25, 177),
+      backgroundColor: Color.fromARGB(255, 233, 4, 4),
       appBar: AppBar(
-        backgroundColor: Colors.amber[800],
+        backgroundColor: Color.fromARGB(255, 0, 0, 0),
         title: Text("ID-CARD"),
         centerTitle: true,
         elevation: 0,
@@ -40,13 +40,13 @@ class _HomePageState extends State<HomePage> {
             ),
             Divider(
               thickness: 2,
-              color: Colors.amber,
+              color: Colors.white,
               height: 100,
             ),
             Text(
               "NAME- Mohd Kashif",
               style: TextStyle(
-                  color: Colors.amber[800],
+                  color: Colors.white,
                   letterSpacing: 2.0,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
             Text(
               "ROLL NO- $roll",
               style: TextStyle(
-                  color: Colors.amber[800],
+                  color: Colors.white,
                   letterSpacing: 2.0,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
